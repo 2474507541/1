@@ -1,0 +1,8 @@
+﻿  Compiling CUDA source file 5.2.2.cu...
+  
+  D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\4 parallel>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\4 parallel\x64\Debug\5.2.2.cu.obj" "D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\4 parallel\5.2.2.cu" 
+  5.2.2.cu
+  tmpxft_00005fdc_00000000-7_5.2.2.cudafe1.cpp
+D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\4 parallel\5.2.2.cu(65): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\4 parallel\5.2.2.cu(66): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  4 parallel.vcxproj -> D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter One\4 parallel\x64\Debug\4 parallel.exe
